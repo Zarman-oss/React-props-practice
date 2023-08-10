@@ -1,30 +1,14 @@
 import { useState } from 'react';
+import Data from './Data';
+import Dashboard from './layout/Dashboard';
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [user, userData] = useState(Data);
 
   return (
-    <>
-      <div className="div">
-        <h1>Count:{count}</h1>
-      </div>
-      <div className="btn-container">
-        <button
-          onClick={() => {
-            setCount(count + 1);
-          }}
-        >
-          Increment
-        </button>
-        <button
-          onClick={() => {
-            setCount(count - 1);
-          }}
-        >
-          Decrement
-        </button>
-      </div>
-    </>
+    <div>
+      <Dashboard user={user} />
+    </div>
   );
 }
 
