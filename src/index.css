@@ -13,7 +13,6 @@ btn-container {
 }
 
 button {
-  
   background-color: orange;
   color: white;
   border: none;
@@ -22,8 +21,13 @@ button {
   cursor: pointer;
   border-radius: 5px;
   font-size: 2rem;
+  transition: transform 0.2s, background-color 0.2s;
 }
 
+button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
 button:last-child {
   margin-right: 0;
 }
