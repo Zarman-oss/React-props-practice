@@ -1,13 +1,12 @@
 import { useState } from 'react';
 import Data from './Data';
-import Dashboard from './layout/Dashboard';
-
+import UserList from './layout/UserList';
 function App() {
   const [user, userData] = useState(Data);
 
   return (
     <div>
-      <Dashboard user={user} />
+      <UserList user={user} />
     </div>
   );
 }

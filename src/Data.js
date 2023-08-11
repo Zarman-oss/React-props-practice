@@ -1,14 +1,14 @@
 const Data = [{
     id: 1,
-    isSubscribed: false,
-    name: 'You'
+    text: 'loremsfcefefefedcfcec',
+    name: 'This is from user 1'
 
 
 },
 {
     id: 2,
-    isSubscribed: true,
-    name: 'You x2'
+    text: 'loremsfcefefefedcfcec',
+    name: 'This is from user 2'
 }
 
 ]
