@@ -1,6 +1,11 @@
 import Dashboard from './Dashboard';
+import { useContext } from 'react';
+import UserContext from '../context/UserContext';
 
-function UserList({ user }) {
+function UserList() {
+  const { user } = useContext(UserContext);
+  console.log(user);
+
   if (!user || user.length === 0) {
     return <h1>No user data ._.</h1>;
   }
