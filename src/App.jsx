@@ -1,30 +1,21 @@
 import { useState } from 'react';
-// Branch feature
+=======
+// import { useState } from 'react';
+  // Branch feature
+// import Data from './Data';
+import UserList from './layout/UserList';
+import { UserProvider } from './context/UserContext';
+
+
 function App() {
-  const [count, setCount] = useState(0);
+  // const [user, userData] = useState(Data);
 
   return (
-    <>
-      <div className="div">
-        <h1>Count:{count}</h1>
+    <UserProvider>
+      <div>
+        <UserList />
       </div>
-      <div className="btn-container">
-        <button
-          onClick={() => {
-            setCount(count + 1);
-          }}
-        >
-          Increment
-        </button>
-        <button
-          onClick={() => {
-            setCount(count - 1);
-          }}
-        >
-          Decrement
-        </button>
-      </div>
-    </>
+    </UserProvider>
   );
 }
 
