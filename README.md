@@ -14,7 +14,7 @@ In this repository, I'm focusing on practicing the usage of React hooks such as:
 - `useReducer` for more complex state management
 - `useMemo` for optimizing performance
 - `useCallback` for optimizing function references
-- `custom hooks` for reusing logic across components/
+- `custom hooks` for reusing logic across components
 
 ## Getting Started
 
