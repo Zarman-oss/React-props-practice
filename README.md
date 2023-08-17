@@ -1,6 +1,6 @@
 # React Hooks Practice Repository
 
-<!-- Updated Main branch -->
+<!-- Updated from main branch -->
 
 Welcome to my React Hooks Practice Repository! 🚀
 
