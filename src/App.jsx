@@ -1,18 +1,10 @@
-// import { useState } from 'react';
-// Branch feature
-// import Data from './Data';
-import UserList from './layout/UserList';
-import { UserProvider } from './context/UserContext';
+import Button from './Layout/Button';
 
 function App() {
-  // const [user, userData] = useState(Data);
-
   return (
-    <UserProvider>
-      <div>
-        <UserList />
-      </div>
-    </UserProvider>
+    <div>
+      <Button />
+    </div>
   );
 }
 

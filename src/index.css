@@ -1,13 +1,11 @@
-body {
-  background-color: rgb(44, 44, 44);
+Body {
+  background-color: rgb(255, 255, 255);
   color: aliceblue;
   font-size: 2rem;
 }
-
 btn-container {
   display: flex;
 }
-
 button {
   background-color: orange;
   color: white;
