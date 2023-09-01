@@ -2,7 +2,7 @@
 <!--save and pull from deature branch -->
 <!-- Updated from main branch -->
 
-Welcome to my React Hooks Practice Repository! 🚀
+Welcome to my React Hooks Practice Repository.
 
 This repository is dedicated to practicing React development using functional components and hooks. The primary focus of this project is to explore and master the usage of various React hooks to build modern and efficient UI components.
 
@@ -38,4 +38,4 @@ Contributions to this project are welcome! If you have suggestions for improveme
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Happy coding! 😊
+
