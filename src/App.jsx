@@ -1,7 +1,14 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function App() {
   const [isOpen, setisOpen] = useState(true);
+  useEffect(() => {
+    console.log('useeffect');
+
+    return () => {
+      console.log('useeffect');
+    };
+  }, []);
 
   return (
     <div>
