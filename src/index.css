@@ -1,6 +1,6 @@
 Body {
   background-color: rgb(255, 255, 255);
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   font-size: 2rem;
 }
 btn-container {
@@ -8,7 +8,7 @@ btn-container {
 }
 button {
   background-color: orange;
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
   padding: 10px 20px;
   margin-right: 10px;
