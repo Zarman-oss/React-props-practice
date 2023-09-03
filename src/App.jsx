@@ -1,9 +1,18 @@
 import { useState } from 'react';
-import Button from './Layout/ToDoButton';
 
 function App() {
-  const [count, setCount] = useState(0);
-  return <div></div>;
+  const [isOpen, setisOpen] = useState(true);
+
+  return (
+    <div>
+      <div className="div">
+        <button onClick={() => setisOpen(!isOpen)}>
+          {isOpen ? 'Close the gate' : 'Open the gate'}
+        </button>
+        <h2>Gate is {isOpen ? 'Open' : 'Closed'}</h2>
+      </div>
+    </div>
+  );
 }
 
 export default App;
