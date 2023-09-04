@@ -12,7 +12,7 @@ function App() {
   }, [count]);
 
   return (
-    <>
+    <div>
       <div className="div">
         <h1>Count : {count}</h1>
         <h2>{'Even number: ' + isEven} </h2>
@@ -33,7 +33,7 @@ function App() {
           Decrement
         </button>
       </div>
-    </>
+    </div>
   );
 }
 
