@@ -7,7 +7,11 @@ h1 {
   /* font-size: xx-large; */
   font-size: 4rem;
 }
-
+h2 {
+  color: aliceblue;
+  /* font-size: xx-large; */
+  font-size: 2rem;
+}
 btn-container {
   display: flex;
 }
