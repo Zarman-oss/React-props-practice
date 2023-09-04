@@ -1,37 +1,20 @@
 import { useState, useEffect } from 'react';
 // Branch feature
 function App() {
-  const [count, setCount] = useState(0);
-  const [isEven, setisEven] = useState(true);
+  const [apiData, setApiData] = useState({});
+
   useEffect(() => {
-    if (count % 2 == 0) {
-      setisEven(true);
-    } else {
-      setisEven(false);
-    }
-  }, [count]);
+    fetch('https://randomuser.me/api')
+      .then((res) => res.json())
+      .then((data) => setApiData(data));
+
+    return () => {};
+  }, []);
 
   return (
     <div>
       <div className="div">
-        <h1>Count : {count}</h1>
-        <h2>{'Even number: ' + isEven} </h2>
-      </div>
-      <div className="btn-container">
-        <button
-          onClick={() => {
-            setCount(count + 1);
-          }}
-        >
-          Increment
-        </button>
-        <button
-          onClick={() => {
-            setCount(count - 1);
-          }}
-        >
-          Decrement
-        </button>
+        {Object.keys(apiData).length > 0 && JSON.stringify(apiData)}
       </div>
     </div>
   );
