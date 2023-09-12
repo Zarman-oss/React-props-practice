@@ -3,6 +3,20 @@ Body {
   color: rgb(255, 255, 255);
   font-size: 2rem;
 }
+<<<<<<< HEAD
+
+h1 {
+  color: aliceblue;
+  /* font-size: xx-large; */
+  font-size: 4rem;
+}
+h2 {
+  color: aliceblue;
+  /* font-size: xx-large; */
+  font-size: 2rem;
+}
+=======
+>>>>>>> 836ad18dfeb311a34d613213ce605fbe8b7cf193
 btn-container {
   display: flex;
 }
