@@ -1,11 +1,9 @@
 Body {
-  background-color: rgb(4, 4, 4);
+  background-color: rgb(85, 85, 85);
   color: rgb(255, 255, 255);
   font-size: 2rem;
 }
-<<<<<<< HEAD
-
-h1 {
+<<<<<<< HEAD h1 {
   color: aliceblue;
   /* font-size: xx-large; */
   font-size: 4rem;
@@ -15,9 +13,7 @@ h2 {
   /* font-size: xx-large; */
   font-size: 2rem;
 }
-=======
->>>>>>> 836ad18dfeb311a34d613213ce605fbe8b7cf193
-btn-container {
+=======>>>>>>>836ad18dfeb311a34d613213ce605fbe8b7cf193 btn-container {
   display: flex;
 }
 button {
