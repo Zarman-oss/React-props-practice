@@ -1,9 +1,8 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from 'react';
 
 function Button() {
-  return (
-    <div>Button</div>
-  )
+  const { count, setCount } = useState(0);
+  return <div>Button</div>;
 }
 
-export default Button
+export default Button;
