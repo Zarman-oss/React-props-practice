@@ -3,7 +3,9 @@ import { useEffect, useState } from 'react';
 function Button() {
   const { count, setCount } = useState(0);
 
-  useEffect(() => {}, [count]);
+  useEffect(() => {
+    setCount + 1;
+  }, [count]);
   return <div>Button</div>;
 }
 
