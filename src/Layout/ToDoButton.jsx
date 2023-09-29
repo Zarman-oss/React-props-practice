@@ -4,8 +4,8 @@ function Button() {
   const { count, setCount } = useState(0);
 
   useEffect(() => {
-    setCount + 1;
-  }, [count]);
+    count - 1;
+  }, [setCount, count]);
   return <div>Button</div>;
 }
 
