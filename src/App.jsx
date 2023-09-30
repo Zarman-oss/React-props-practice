@@ -19,7 +19,7 @@ const reducer = (state, action) => {
 function App() {
   const [state, dispatch] = useReducer(reducer, { count: 0, isEven: 'false' });
   // const [count, setCount] = useState(0);
-  // const [isEven, setisEven] = useState(true);
+  // const [isEven, setIsEven] = useState(true);
   useEffect(() => {
     const isCountEven = state.count % 2 === 0;
     dispatch({ type: 'setEven', payload: isCountEven });
