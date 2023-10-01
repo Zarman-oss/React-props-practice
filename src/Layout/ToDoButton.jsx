@@ -6,7 +6,7 @@ function Button() {
   useEffect(() => {
     count - 1;
   }, [setCount, count]);
-  return <div>Button</div>;
+  return <div className="div">Button</div>;
 }
 
 export default Button;
